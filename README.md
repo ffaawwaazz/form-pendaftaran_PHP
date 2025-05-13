@@ -39,7 +39,7 @@ Proyek ini adalah aplikasi web untuk pendaftaran mahasiswa baru yang terdiri dar
 5. **Isi Formulir** dan klik "Daftar". Data akan disimpan di file `data_pendaftar.txt`.
 
 ---
-## Sebelum menjalankan " http://localhost/form pendaftaran/index.html"
+## Sebelum menjalankan " http://localhost/form-pendaftaran/index.html"
 
 jalankan Apache, Setelah proyek disalin ke dalam folder yang tepat, sekarang jalankan Apache dari XAMPP atau Laragon.
 

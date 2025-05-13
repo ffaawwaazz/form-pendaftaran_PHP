@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>📝 Pendaftaran Mahasiswa Baru</h2>
+        <form id="formPendaftaran" method="POST" action="simpan.php" onsubmit="return validasiForm()">
+
+            <label for="nama">👤 Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+
+            <label for="email">📧 Email</label>
+            <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+
+            <label for="telepon">📱 No. Telepon</label>
+            <input type="tel" id="telepon" name="telepon" placeholder="08xxxxxxxxxx" required>
+
+            <label for="jurusan">🎓 Jurusan</label>
+            <select id="jurusan" name="jurusan" required>
+                <option value="">-- Pilih Jurusan --</option>
+                <option value="Teknik Informatika">Teknik Informatika</option>
+                <option value="Sistem Informasi">Sistem Informasi</option>
+                <option value="Teknik Elektro">Teknik Elektro</option>
+                <option value="Teknik Mesin">Teknik Mesin</option>
+            </select>
+
+            <button type="submit">🚀 Daftar Sekarang</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

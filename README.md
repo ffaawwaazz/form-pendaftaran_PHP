@@ -25,6 +25,38 @@ Proyek ini adalah aplikasi web untuk pendaftaran mahasiswa baru yang terdiri dar
 ├── simpan.php         # Proses penyimpanan data ke file
 └── data_pendaftar.txt # File untuk menyimpan data pendaftar (otomatis)
 ```
+---
+## 📦 Cara Menjalankan Proyek
+
+1. **Unduh dan Install XAMPP**: [XAMPP](https://www.apachefriends.org/index.html)
+2. **Letakkan File Proyek** ke dalam folder `htdocs/` pada direktori instalasi XAMPP.
+3. **Jalankan Apache** melalui XAMPP Control Panel.
+4. **Akses aplikasi** di browser dengan membuka:
+
+   ```
+   http://localhost/form pendaftaran/index.html
+   ```
+5. **Isi Formulir** dan klik "Daftar". Data akan disimpan di file `data_pendaftar.txt`.
+
+---
+## Sebelum menjalankan " http://localhost/form pendaftaran/index.html"
+
+jalankan Apache, Setelah proyek disalin ke dalam folder yang tepat, sekarang jalankan Apache dari XAMPP atau Laragon.
+
+5.1 Mengaktifkan Apache di XAMPP
+
+5.2 Buka XAMPP Control Panel.
+
+5.3 Klik tombol Start di sebelah Apache untuk menjalankan server Apache.
+
+5.4 Pastikan statusnya berubah menjadi Running (berwarna hijau).
+
+![image](https://github.com/user-attachments/assets/0ee3a99e-54e6-48d7-a16f-2986e69b0226)
+
+## jalankan " http://localhost/form pendaftaran/index.html" di browser  
+![image](https://github.com/user-attachments/assets/32262f0c-419a-42fe-948d-de412513bd0f)
+![image](https://github.com/user-attachments/assets/8b72cd45-bfb7-4ebd-81f2-15904056af7c)
+![image](https://github.com/user-attachments/assets/8888d63c-22a8-434d-b501-affabc15c6f9)
 
 ---
 
@@ -156,31 +188,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 * Data disimpan ke file `data_pendaftar.txt` menggunakan `file_put_contents()`.
 
 ---
-
-## 📦 Cara Menjalankan Proyek
-
-1. **Unduh dan Install XAMPP**: [XAMPP](https://www.apachefriends.org/index.html)
-2. **Letakkan File Proyek** ke dalam folder `htdocs/` pada direktori instalasi XAMPP.
-3. **Jalankan Apache** melalui XAMPP Control Panel.
-4. **Akses aplikasi** di browser dengan membuka:
-
-   ```
-   http://localhost/form pendaftaran/index.html
-   ```
-5. **Isi Formulir** dan klik "Daftar". Data akan disimpan di file `data_pendaftar.txt`.
-
----
-Sebelum menjalankan " http://localhost/form pendaftaran/index.html"
-
-jalankan Apache, Setelah proyek disalin ke dalam folder yang tepat, sekarang jalankan Apache dari XAMPP atau Laragon.
-
-5.1 Mengaktifkan Apache di XAMPP
-
-5.2 Buka XAMPP Control Panel.
-
-5.3 Klik tombol Start di sebelah Apache untuk menjalankan server Apache.
-
-5.4 Pastikan statusnya berubah menjadi Running (berwarna hijau).
-
-![image](https://github.com/user-attachments/assets/0ee3a99e-54e6-48d7-a16f-2986e69b0226)
 

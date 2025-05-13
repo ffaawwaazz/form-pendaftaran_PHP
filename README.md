@@ -165,9 +165,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 4. **Akses aplikasi** di browser dengan membuka:
 
    ```
-   http://localhost/nama-folder/index.html
+   http://localhost/form pendaftaran/index.html
    ```
 5. **Isi Formulir** dan klik "Daftar". Data akan disimpan di file `data_pendaftar.txt`.
 
 ---
+Sebelum menjalankan " http://localhost/form pendaftaran/index.html"
+
+Menjalankan Apache
+Setelah proyek disalin ke dalam folder yang tepat, sekarang jalankan Apache dari XAMPP atau Laragon.
+
+5.1 Mengaktifkan Apache di XAMPP
+5.2 Buka XAMPP Control Panel.
+5.3 Klik tombol Start di sebelah Apache untuk menjalankan server Apache.
+5.4 Pastikan statusnya berubah menjadi Running (berwarna hijau).
+
+![image](https://github.com/user-attachments/assets/0ee3a99e-54e6-48d7-a16f-2986e69b0226)
 

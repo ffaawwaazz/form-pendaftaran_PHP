@@ -1,4 +1,4 @@
-LINK WEB : 
+LINK WEB :  http://localhost/form-pendaftaran/index.html
 
 # Formulir Pendaftaran Mahasiswa Baru
 

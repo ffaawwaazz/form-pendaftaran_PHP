@@ -53,7 +53,7 @@ jalankan Apache, Setelah proyek disalin ke dalam folder yang tepat, sekarang jal
 
 ![image](https://github.com/user-attachments/assets/0ee3a99e-54e6-48d7-a16f-2986e69b0226)
 
-## jalankan " http://localhost/form pendaftaran/index.html" di browser  
+## jalankan " http://localhost/form-pendaftaran/index.html" di browser  
 ![image](https://github.com/user-attachments/assets/32262f0c-419a-42fe-948d-de412513bd0f)
 ![image](https://github.com/user-attachments/assets/8b72cd45-bfb7-4ebd-81f2-15904056af7c)
 ![image](https://github.com/user-attachments/assets/8888d63c-22a8-434d-b501-affabc15c6f9)

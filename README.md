@@ -1,4 +1,4 @@
-LINK WEB LOCALHOST :  http://localhost/form-pendaftaran/index.html
+LINK WEB LOCALHOST :  http://localhost/form-pendaftaran/index.html  &
 LINK WEB Github : https://ffaawwaazz.github.io/form-pendaftaran_PHP/
 
 # Formulir Pendaftaran Mahasiswa Baru

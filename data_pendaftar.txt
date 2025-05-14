@@ -1,0 +1,3 @@
+Nama: john | Email: john123@gmail.com | Telepon: 081370705335 | Jurusan: Teknik Mesin
+Nama: Rafif Fawwaz Kartika | Email: fawwazkartika@gmail.com | Telepon: 081370705335 | Jurusan: Teknik Informatika
+Nama: dimas | Email: hattori660@gmail.com | Telepon: 09623647322 | Jurusan: Teknik Elektro
